@@ -7,7 +7,7 @@ URxvt.loginShell: true
 ! - font-size: for scaling fonts
 !   https://github.com/majutsushi/urxvt-font-size/blob/master/font-size
 !
-URxvt.perl-ext-common: default,matcher,selection-to-clipboard,font-size
+URxvt.perl-ext-common: default -searchable-scrollback,matcher,selection-to-clipboard,font-size
 
 
 ! Fonts
